@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="app">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="rescourse">
+      <UniqueIdentifier>{ae525ce3-2544-4265-addf-4156a880489f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{e182188b-7b87-42c9-891c-6d76e3a4654e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app\main.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BattleField.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpaceShip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ParticleGenerators.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BitMap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bullet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemies.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Skybox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Water.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Objload.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Menus.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BattleField.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Clock.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FpsCounter.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameManager.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Input.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneObject.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpaceShip.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ParticleGenerators.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BitMap.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bullet.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemies.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shader.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Skybox.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Water.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Objload.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Menus.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\brick.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\brick.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\fixed.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\fixed.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\phong.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\phong.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\red.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\red.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\reflection.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\reflection.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\terrain.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\terrain.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\skybox.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\skybox.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\framebuffer.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\framebuffer.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\terrain2.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\terrain2.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\space.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\space.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\water.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\water.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="rescourse\airplane.png">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\bullet.jpg">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\color.jpg">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\colorMap2012.bmp">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\eni.jpg">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\height.jpg">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\heightMap2012.bmp">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\images.jpg">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\light.jpg">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\lightMap2012.bmp">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\Particle.bmp">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\Particle.jpg">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\Particle3.bmp">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\PINK.png">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\road.png">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\rock.jpg">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\skybox_down.bmp">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\skybox_east.bmp">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\skybox_north.bmp">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\skybox_south.bmp">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\skybox_up.bmp">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\skybox_west.bmp">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\space.jpg">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\entropic_bk.tga">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\entropic_dn.tga">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\entropic_ft.tga">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\entropic_lf.tga">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\entropic_rt.tga">
+      <Filter>rescourse</Filter>
+    </Image>
+    <Image Include="rescourse\entropic_up.tga">
+      <Filter>rescourse</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
